@@ -15,37 +15,39 @@
 	{ 
       if (stripos($numbers, $password[$i]) !== false) 
 	  {
-		$reliability += 4;
-		$numbersAmount++;
+      $reliability += 4;
+      $numbersAmount++;
 	  };
 	  if (mb_strtolower($password[$i]) !== $password[$i] & stripos($numbers, $password[$i]) === false) 
 	  {
-		$uppersAmount += 1;
+	  	$uppersAmount += 1;
 	  };
 	  if (mb_strtolower($password[$i]) == $password[$i] & stripos($numbers, $password[$i]) === false) 
 	  {
-		$lowersAmount += 1;
+		  $lowersAmount += 1;
 	  };
-	  $lettersAmount = $lowersAmount + $uppersAmount;
-      if ($lettersAmount == 0 & $numbersAmount != 0)
-	  {
-		$reliability -= strlen($password);
-	  };
-	  if ($lettersAmount != 0 & $numbersAmount == 0)
-	  {
-		$reliability -= strlen($password);
-	  };
+	  
 	  if (stripos($rePassword, $password[$i]) === false)
 	  {
-		$rePassword = $rePassword.$password[$i];
+		  $rePassword = $rePassword.$password[$i];
 	  };
 	};
-	if (strlen($rePassword) != strlen($password)) 
-	{
-	  $reliability -= strlen($password) - strlen($rePassword);
-	};
-	$reliability += (strlen($password) - $lowersAmount) * 2;
-	$reliability += (strlen($password) - $uppersAmount) * 2;
+    if (strlen($rePassword) != strlen($password)) 
+    {
+      $reliability -= strlen($password) - strlen($rePassword);
+    };
+    $lettersAmount = $lowersAmount + $uppersAmount;
+    if ($lettersAmount == 0 & $numbersAmount != 0)
+    {
+      $reliability -= strlen($password);
+    };
+    if ($lettersAmount != 0 & $numbersAmount == 0)
+    {
+      $reliability -= strlen($password);
+    };
+    $reliability += (strlen($password) - $lowersAmount) * 2;
+    $reliability += (strlen($password) - $uppersAmount) * 2;
+    echo "numbersAmount: ".$numbersAmount." lettersAmount: ".$lettersAmount." rePassword: ".$rePassword." uppersAmount: ".$uppersAmount." lowersAmount: ".$lowersAmount."\n";
   };
   
   echo $reliability;
