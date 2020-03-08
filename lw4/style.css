@@ -15,17 +15,20 @@ body, html {
 }
 
 #main img {
-    width: 500px;
-    height: 667px;
+    max-width: 500px;
+    max-height: 667px;
+    width: 40%;
+    height: auto;
 }
 
 #text-info {
     display: flex;
     flex-direction: column;
     width: 40%;
+    height: auto;
     border: 3px solid #000000;
     padding: 20px;
-    height: 617px;
+    max-height: 617px;
     justify-content: center;
 }
 
@@ -54,6 +57,7 @@ body, html {
 
 #text-info ul {
     margin: 0;
+    padding-left: 20px;
 }
 
 #main-paragraph span {
