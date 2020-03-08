@@ -11,7 +11,7 @@ body, html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #main img {
@@ -19,6 +19,7 @@ body, html {
     max-height: 667px;
     width: 40%;
     height: auto;
+    padding-right: 80px;
 }
 
 #text-info {
