@@ -5,8 +5,6 @@ header
     background-image: url("../img/header-background.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
 }
 
 #header-top 
@@ -35,6 +33,7 @@ header
     color: #f4f5f9;
     text-decoration: none;
     padding-bottom: 23px;
+	text-transform: uppercase;
 }
 
 .nav-link:hover
@@ -56,8 +55,6 @@ header
     left: calc(50% - 32px);
     width: 65px;
     height: 65px;
-    padding: 0;
-    margin: 0;
     background: none;
     border: none;
     outline: none;
@@ -120,7 +117,7 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 230px;
+    margin-top: 180px;
 }
 
 #slider h2 
@@ -128,8 +125,6 @@ header
     color: #fff;
     font-family: 'Source Sans Pro';
     font-size: 24px;
-    margin: 0;
-    padding: 0;
 }
 
 #slider h1 
@@ -138,11 +133,17 @@ header
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 72px;
-    margin: 0;
     margin-top: 50px;
-    padding: 0;
     line-height: 72px;
+	text-transform: uppercase;
 }
+
+#slider-headings-block
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+} 
 
 #slider p 
 {
@@ -152,8 +153,6 @@ header
     font-weight: 400;
     max-width: 580px;
     text-align: center;
-    margin: 0;
-    padding: 0;
     margin-top: 45px;
 }
 
@@ -163,8 +162,6 @@ header
     flex-direction: row;
     width: 100%;
     justify-content: center;
-    margin: 0;
-    padding: 0;
     margin-top: 70px;
 }
 
@@ -180,6 +177,7 @@ header
     font-weight: 700;
     margin-right: 30px;
     transition: 0.4s;
+	text-transform: uppercase;
 }
 
 #get-started:hover, #right-slider-btn:hover
@@ -199,6 +197,7 @@ header
     font-family: 'Open Sans';
     font-weight: 700;
     transition: 0.4s;
+	text-transform: uppercase;
 }
 
 #learn-more:hover

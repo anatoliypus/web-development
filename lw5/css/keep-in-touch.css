@@ -3,8 +3,6 @@
     width: 100%;
     height: 1040px;
     background-color: #f4f5f9;
-    margin: 0;
-    padding: 0;
 }
 
 #info 
@@ -13,8 +11,6 @@
     height: 570px;
     background-color: #fff;
     border-radius: 5px;
-    padding: 0;
-    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,8 +39,6 @@
     font-weight: 700;
     font-size: 36px;
     color: #6a6a6a;
-    margin: 0;
-    padding: 0;
     margin-top: 140px;
     line-height: 36px;
 }
@@ -55,8 +49,6 @@
     font-size: 14px;
     font-weight: 400;
     color: #999999;
-    margin: 0;
-    padding: 0;
     margin-top: 30px;
     line-height: 14px;
 }
@@ -72,8 +64,6 @@
     font-size: 18px;
     color: #999;
     font-weight: 400;
-    margin: 0;
-    padding: 0;
     margin-top: 18px;
 }
 
@@ -83,8 +73,6 @@
     font-weight: 600;
     color: #e74e3e;
     font-size: 24px;
-    margin: 0;
-    padding: 0;
 }
 
 .info-block
@@ -108,8 +96,6 @@
     height: 570px;
     background-color: #fff;
     border-radius: 5px;
-    padding: 0;
-    margin: 0;
     margin-left: 25px;
     display: flex;
     flex-direction: column;
@@ -127,8 +113,6 @@
     font-weight: 600;
     color: #999999;
     font-size: 14px;
-    padding: 0;
-    margin: 0;
     margin-top: 10px;
 }
 
@@ -136,8 +120,6 @@
 {
     width: 100%;
     height: 110px;
-    margin: 0;
-    padding: 0;
     margin-top: 26px;
     border: none;
     border-bottom: 1px solid #e5e5e5;
@@ -155,8 +137,6 @@
     width: 157px;
     height: 43px;
     border-radius: 5px;
-    margin: 0;
-    padding: 0;
     margin-top: 30px;
     color: #fff;
     font-family: 'Open Sans';
