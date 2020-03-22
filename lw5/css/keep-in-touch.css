@@ -1,11 +1,11 @@
-#keep-in-touch
+.keep-in-touch
 {
     width: 100%;
     height: 1040px;
     background-color: #f4f5f9;
 }
 
-#info 
+.info 
 {
     width: calc(45% - 25px);
     height: 570px;
@@ -17,7 +17,7 @@
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }  
 
-#service-blocks 
+.service-blocks 
 {
     display: flex;
     flex-direction: row;
@@ -25,7 +25,7 @@
     padding-top: 62px;
 }
 
-#keep-in-touch-heading 
+.keep-in-touch-heading 
 {
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-#keep-in-touch-heading h3 
+.keep-in-touch-heading h2 
 {
     font-family: 'Source Sans Pro';
     font-weight: 700;
@@ -43,7 +43,7 @@
     line-height: 36px;
 }
 
-#keep-in-touch-heading p 
+.keep-in-touch-heading p 
 {
     font-family: 'Open Sans';
     font-size: 14px;
@@ -53,7 +53,7 @@
     line-height: 14px;
 }
 
-#keep-in-touch .figure 
+.keep-in-touch .figure 
 {
     margin-top: 23px;
 }
@@ -67,7 +67,7 @@
     margin-top: 18px;
 }
 
-.info-block h4
+.info-block h3
 {
     font-family: 'Source Sans Pro';
     font-weight: 600;
@@ -85,12 +85,12 @@
     margin-top: 58px;
 }
 
-#first-info-block 
+.first-info-block 
 {
     margin-top: 92px;
 }
 
-#message 
+.message 
 {
     width: 55%;
     height: 570px;
@@ -131,7 +131,7 @@
     resize: none;
 }
 
-#message button 
+.message button 
 {
     background-color: #e74e3e;
     width: 157px;
@@ -147,13 +147,13 @@
     transition: 0.4s;
 }
 
-#message button:hover
+.message button:hover
 {
     background-color: #e8857b;
     transition: 0.4s;
 }
 
-#message .container 
+.message .container 
 {
     margin-top: 45px;
 }

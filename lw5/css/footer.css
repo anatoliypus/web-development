@@ -5,7 +5,7 @@ footer
     background-color: #202020;
 }
 
-#copyright h5 
+.copyright h4 
 {
     font-family: 'Open Sans';
     font-weight: 600;
@@ -27,7 +27,7 @@ footer .container
     align-items: center;
 }
 
-#social-icons 
+.social-icons 
 {
     display: flex;
     flex-direction: row;

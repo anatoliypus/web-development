@@ -7,7 +7,7 @@ header
     background-repeat: no-repeat;
 }
 
-#header-top 
+.header-top 
 {
     width: 100%;
     height: auto;
@@ -18,7 +18,7 @@ header
     align-items: center;
 }
 
-#header-top nav 
+.header-top nav 
 {
     width: 60%;
     display: flex;
@@ -42,13 +42,13 @@ header
     border-bottom: 1px solid #e74c3c;
 }
   
-#header-top img 
+.header-top img 
 {
     width: 142px;
     height: 52px;
 }
 
-#down-btn
+.down-btn
 {
     position: absolute;
     top: calc(991px - 32px);
@@ -61,7 +61,7 @@ header
     transition: 0.4s;
 }
 
-#down-btn:hover
+.down-btn:hover
 {
     width: 75px;
     height: 75px;
@@ -69,13 +69,12 @@ header
     transition: 0.4s;
 }
 
-#down-btn img 
+.down-btn img 
 {
     width: 100%;
     height: 100%;
 }
-
-#left-slider-btn
+.left-slider-btn
 {
     position: absolute;
     top: 438px;
@@ -88,13 +87,13 @@ header
     transition: 0.4s;
 }
 
-#left-slider-btn:hover 
+.left-slider-btn:hover 
 {
     background-color: #b0aead;
     transition: 0.4s;
 }
 
-#right-slider-btn
+.right-slider-btn
 {
     position: absolute;
     top: 438px;
@@ -107,11 +106,11 @@ header
     transition: 0.4s;
 }
 
-#left-slider-btn img, #right-slider-btn img {
+.left-slider-btn img, .right-slider-btn img {
     margin: auto;
 }
 
-#slider 
+.slider 
 {
     width: 100%;
     display: flex;
@@ -120,14 +119,14 @@ header
     margin-top: 180px;
 }
 
-#slider h2 
+.slider pre 
 {
     color: #fff;
     font-family: 'Source Sans Pro';
-    font-size: 24px;
+	font-size: 24px;
 }
 
-#slider h1 
+.slider h1 
 {
     color: #fff;
     font-family: 'Open Sans';
@@ -138,14 +137,7 @@ header
 	text-transform: uppercase;
 }
 
-#slider-headings-block
-{
-	display: flex;
-	flex-direction: column-reverse;
-	align-items: center;
-} 
-
-#slider p 
+.slider p 
 {
     font-size: 14px;
     color: #cbc6c0;
@@ -156,7 +148,7 @@ header
     margin-top: 45px;
 }
 
-#slider-buttons 
+.slider-buttons 
 {
     display: flex;
     flex-direction: row;
@@ -165,7 +157,7 @@ header
     margin-top: 70px;
 }
 
-#get-started 
+.get-started 
 {
     width: 226px;
     height: 56px;
@@ -180,13 +172,13 @@ header
 	text-transform: uppercase;
 }
 
-#get-started:hover, #right-slider-btn:hover
+.get-started:hover, .right-slider-btn:hover
 {
     background-color: #e8857b;
     transition: 0.4s;
 }
 
-#learn-more 
+.learn-more 
 {
     width: 226px;
     height: 56px;
@@ -200,7 +192,7 @@ header
 	text-transform: uppercase;
 }
 
-#learn-more:hover
+.learn-more:hover
 {
     background-color: rgba(255, 255, 255, 0.25);
     transition: 0.4s;

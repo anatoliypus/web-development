@@ -1,11 +1,11 @@
-#features .container 
+.features .container 
 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#features 
+.features 
 {
     width: 100%;
     height: 415px;
@@ -30,7 +30,7 @@
     margin-top: 20px;
 }
 
-.feature h3 
+.feature h2
 {
     font-family: 'Open Sans';
     font-size: 18px;
