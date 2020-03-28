@@ -113,3 +113,44 @@
     margin-top: 20px;
 }
 
+@media screen and (max-width: 700px)
+{
+    .services
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .services-right
+    {
+        height: 600px;
+        width: 100%;
+    }
+    .services-left
+    {
+        justify-content: center;
+        align-items: center;
+        height: 734px;
+        width: 100%;
+    }
+    .services-left .container 
+    {
+        padding: 0;
+    }
+    .web-btn, .print-btn, .photo-btn
+    {
+        visibility: hidden;
+    }
+    .services .container 
+    {
+        margin-top: 89px;
+    }
+}
+
+@media screen and (max-width: 1150px)
+{
+    .web-btn, .print-btn, .photo-btn
+    {
+        visibility: hidden;
+    }
+}
+

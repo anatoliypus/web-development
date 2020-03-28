@@ -59,3 +59,34 @@ footer button:hover
     background-color: #e8857b;
     transition: 0.4s;
 }
+
+@media screen and (max-width: 700px)
+{
+    footer .container 
+    {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    footer 
+    {
+        height: 120px;
+    }
+    .social-icons 
+    {
+        width: 90%;
+    }
+    footer button 
+    {
+        visibility: hidden;
+        transition: none;
+    }
+}
+
+@media screen and (max-width: 1150px)
+{
+    footer button 
+    {
+        visibility: hidden;
+        transition: none;
+    }
+}
