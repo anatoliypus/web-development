@@ -40,3 +40,18 @@ function calc(str) {
   
   return solve(inp);
 }
+
+console.log('Input: + 3 5');
+console.log(calc('+ 3 5'));
+
+console.log('Input: - 3 5');
+console.log(calc('- 3 5'));
+
+console.log('Input: * 3 5');
+console.log(calc('* 3 5'));
+
+console.log('Input: / 3 5');
+console.log(calc('/ 3 5'));
+
+console.log('Input: *(+4 3) 5');
+console.log(calc('*(+ 4 3) 5'));
