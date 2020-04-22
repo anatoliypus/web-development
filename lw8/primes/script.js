@@ -1,4 +1,5 @@
 function checkOne(num) {
+
   result = true;
   for (let i = 2; i < num; i++) {
     if (num % i == 0) {
@@ -11,11 +12,13 @@ function checkOne(num) {
 
 function isPrime(n) {
   if (typeof n == 'number') {
-    if (checkOne(n)) {
+    if (n == 0 || n == 1) {
+      console.log('That is not a prime number ' + n)
+    } else if (checkOne(n)) {
       console.log('That is a prime number - ' + n);
-  } else {
-      console.log('That is not a prime number - ' + n);
-  }
+    } else {
+        console.log('That is not a prime number - ' + n);
+    }
   } else if (typeof n == 'object') {
     console.log('Input - [' + n + ']');
     for (value of n) {
@@ -35,6 +38,8 @@ function isPrime(n) {
   }
 }
 
+isPrime(0);
+isPrime(1);
 isPrime(5);
 isPrime(10);
 isPrime([13, 14, 17]);
