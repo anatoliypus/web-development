@@ -41,13 +41,16 @@ header
 
 .header-top 
 {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 96px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 40px;
     align-items: center;
+    position: absolute;
+    top: 0;
+    left: 15%;
 }
 
 .header-top nav 
@@ -119,9 +122,9 @@ header
     transition: 0.4s;
 }
 
-#left-slider-btn:hover 
+#left-slider-btn:hover, #right-slider-btn:hover
 {
-    background-color: #b0aead;
+    background-color: #e74c3c;
     transition: 0.4s;
 }
 
@@ -130,7 +133,7 @@ header
     position: absolute;
     top: 438px;
     right: 48px;
-    background-color: #e74c3c;
+    background-color: #706b65;
     border: none;
     border-radius: 5px;
     width: 45px;
@@ -148,7 +151,7 @@ header
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 180px;
+    margin-top: 280px;
 }
 
 .slider pre 
@@ -204,7 +207,7 @@ header
 	text-transform: uppercase;
 }
 
-.get-started:hover, #right-slider-btn:hover
+.get-started:hover
 {
     background-color: #e8857b;
     transition: 0.4s;
@@ -257,7 +260,7 @@ header
     }
     .slider
     {
-        margin-top: 80px;
+        margin-top: 500px;
     }
     .slider h1 
     {
