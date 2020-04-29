@@ -83,6 +83,7 @@
     font-weight: 700;
     color: #f4f5f9;
     font-size: 36px;
+    text-transform: uppercase;
 }
 
 .service 
@@ -101,6 +102,7 @@
     font-weight: 600;
     font-size: 18px;
     color: #e74c3c;
+    text-transform: uppercase;
 }
 
 .service p 

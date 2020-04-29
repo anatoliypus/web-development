@@ -1,4 +1,1 @@
-Name: name 
-Email: a@mail.ru
-Subject: not stated
-Message: not stated
+Name: ferferf\r\nEmail: a@mail.ru\r\nSubject: not stated\r\nMessage: not stated\r\n

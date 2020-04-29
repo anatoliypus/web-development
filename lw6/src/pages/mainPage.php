@@ -1,6 +1,7 @@
 <?php 
-  function mainPage()
-  {
-    renderTemplate("main.php");
-  }
+
+function mainPage(): void
+{
+    renderTemplate('main.php');
+}
   
