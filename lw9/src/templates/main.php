@@ -266,8 +266,8 @@
 				<div class="message">
 					<div class="container">
 						<form method="post" action="/" id="save-user-form">
-							<input type="text" class="small-input" placeholder="Name" name="name">
-							<input type="text" class="small-input" placeholder="Email" name="email">
+							<input type="text" class="small-input" placeholder="Name *" name="name">
+							<input type="text" class="small-input" placeholder="Email *" name="email">
 							<input type="text" class="small-input" placeholder="Subject" name="subject">
               <textarea class="big-textarea" placeholder="Message" name="message" id="textarea-message"></textarea>
               <div>
