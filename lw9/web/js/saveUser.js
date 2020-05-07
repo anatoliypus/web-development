@@ -2,7 +2,7 @@ async function run() {
   const form = document.getElementById('save-user-form');
   form.addEventListener('submit', async function(event) {
     event.preventDefault();
-    const response = await fetch('http://localhost:8080/web/index.php', {
+    const response = await fetch('index.php', {
       method: 'POST',
       body: new FormData(form)
     });

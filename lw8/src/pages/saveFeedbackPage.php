@@ -21,15 +21,15 @@ function saveFeedbackPage(): void
 
     if ($cond and $name != null and !ctype_digit($name[0])) 
     {
-        $fp = fopen('../src/data/'.mb_strtolower($email).'.txt', 'w');
+        $fp = fopen('../src/data/' . mb_strtolower($email) . '.txt', 'w');
         $str = $name;
-        fwrite($fp, 'Name: '.$str.'\r\n');
+        fwrite($fp, 'Name: ' . $str . '\r\n');
         $str = $email == null ? 'not stated' : $email;
-        fwrite($fp, 'Email: '.$str.'\r\n');
+        fwrite($fp, 'Email: ' . $str . '\r\n');
         $str = $subject == null ? 'not stated' : $subject;
-        fwrite($fp, 'Subject: '.$str.'\r\n');
+        fwrite($fp, 'Subject: ' . $str . '\r\n');
         $str = $message == null ? 'not stated' : $message;
-        fwrite($fp, 'Message: '.$str.'\r\n');
+        fwrite($fp, 'Message: ' . $str . '\r\n');
         renderTemplate('main.php', ['scroll' => TRUE, 'success' => TRUE]);
     } else 
     {

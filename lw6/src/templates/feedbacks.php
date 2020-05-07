@@ -10,12 +10,12 @@
     <?php 
     if (isset($args['error_msg'])) 
     {
-        echo '<h1>'.$args["error_msg"].'</h1>';
+        echo '<h1>' . $args["error_msg"] . '</h1>';
     } else 
     {
         foreach($args['vals'] as $val)
         {
-            echo '<li>'.$val.'</li>';
+            echo '<li>' . $val . '</li>';
         }
     }
     ?>

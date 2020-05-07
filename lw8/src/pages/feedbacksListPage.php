@@ -12,7 +12,7 @@ function feedbacksListPage(): void
 
     if ($email != null) 
     {
-        $fp = fopen('../src/data/'.$email.'.txt', 'r');
+        $fp = fopen('../src/data/' . $email . '.txt', 'r');
         $strings = [];
         if ($fp) 
         {
