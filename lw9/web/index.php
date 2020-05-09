@@ -9,7 +9,8 @@ require_once(__DIR__.'/../src/commonInc.php');
 if (getRequestMethod() == 'POST')
 {
     saveFeedbackPage();
-} else 
+} 
+else 
 {
     mainPage();
 }

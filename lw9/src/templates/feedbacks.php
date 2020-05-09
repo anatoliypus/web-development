@@ -11,7 +11,8 @@
     if (isset($args['error_msg'])) 
     {
         echo '<h1>'.$args["error_msg"].'</h1>';
-    } else 
+    } 
+    else 
     {
         foreach($args['vals'] as $val)
         {

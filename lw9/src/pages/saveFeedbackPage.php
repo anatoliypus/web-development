@@ -44,19 +44,22 @@ function saveFeedbackPage(): void
         fwrite($fp, 'Message: '.$str."\r\n");
         $success = ['success' => TRUE, 'email' => TRUE, 'name' => TRUE];
         echo json_encode($success);
-    } else 
+    } 
+    else 
     {
         $errors = ['success' => FALSE];
         if ($name == null or ! $nameNotContainsDigits) {
             $errors['name'] = FALSE;
-        } else 
+        } 
+        else 
         {
             $errors['name'] = TRUE;
         }
         if (!filter_var($email, FILTER_VALIDATE_EMAIL))
         {
             $errors['email'] = FALSE;
-        } else 
+        } 
+        else 
         {
             $errors['email'] = TRUE;
         }
