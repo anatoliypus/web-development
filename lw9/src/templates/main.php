@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/features.css">
-	<link rel="stylesheet" href="css/services.css">
-	<link rel="stylesheet" href="css/keep-in-touch.css">
-	<link rel="stylesheet" href="css/get-started.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/features.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/keep-in-touch.css">
+  <link rel="stylesheet" href="css/get-started.css">
   <link rel="stylesheet" href="css/footer.css">
   <script src="js/slider.js" defer></script>
   <script src="js/saveUser.js" defer></script>
-	<title>Bino</title>
+  <title>Bino</title>
 </head>
 <body>
-	<header id="header">
+  <header id="header">
     <button id="left-slider-btn">
       <img src="img/angle-left.png" alt="left">
     </button>
@@ -152,123 +152,123 @@
         </div>
       </div>
     </div>
-	</header>
-	<div class="features">
-		<div class="container">
-			<div class="feature">
-				<img src="img/features-1.png" alt="sleek design">
-				<h2 class="feature-highlighted-heading">Sleek design</h2>
-				<hr>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting let. 
-					Lorem Ipsum has been the industry.
-				</p>
-			</div>
-			<div class="feature">
-				<img src="img/features-2.png" alt="sleek design">
-				<h2>Cleen code</h2>
-				<hr>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting let. 
-					Lorem Ipsum has been the industry.
-				</p>
-			</div>
-			<div class="feature">
-				<img src="img/features-3.png" alt="sleek design">
-				<h2>Creative ideas</h2>
-				<hr>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting let. 
-					Lorem Ipsum has been the industry.
-				</p>
-			</div>
-			<div class="feature">
-				<img src="img/features-4.png" alt="sleek design">
-				<h2>Free support</h2>
-				<hr>
-				<p>
-					Lorem Ipsum is simply dummy text of the printing and typesetting let. 
-					Lorem Ipsum has been the industry.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="services">
-		<img src="img/services-web-btn.png" class="web-btn" alt="web design">
-		<img src="img/services-print-btn.png" class="print-btn" alt="print design">
-		<img src="img/services-photo-btn.png" class="photo-btn" alt="photography">
-		<div class="services-left">
-			<div class="container">
-				<div class="services-heading">
-					<h2>Our services</h3>
-					<hr>
-				</div>
-				<div class="service">
-					<h3>Web design</h3>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-						Lorem Ipsum has been the industry's standard dummy text ever.
-					</p>
-				</div>
-				<div class="service">
-					<h3>Print design</h3>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-						Lorem Ipsum has been the industry's standard dummy text ever.
-					</p>
-				</div>
-				<div class="service">
-					<h3>Photography</h3>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
-						Lorem Ipsum has been the industry's standard dummy text ever.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="services-right"></div>
-	</div>
-	<div class="keep-in-touch" id="forms">
-		<div class="container">
-			<div class="keep-in-touch-heading">
-				<h2>Keep in touch</h2>
-				<p>
-					Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna 
-					suscipit, dictum quam nec. 
-				</p>
-				<div class="figure">
-					<hr>
-					<img src="img/header-figure-ellipse.png" alt="dot">
-					<hr>
-				</div> 
-			</div>
-			<div class="service-blocks" id="form-block">
-				<div class="info">
-					<div class="info-block" class="first-info-block">
-						<h3>Our address</h3>
-						<p>	
-							House #13, Streat road, Sydney 
-							2310 Australia
-						</p>
-					</div>
-					<div class="info-block">
-						<h3>Call us</h3>
-						<p>
-							+ 880 168 109 1425<br>
-							+ 0216809142
-						</p>
-					</div>
-					<div class="info-block">
-						<h3>Email us</h3>
-						<p>contactus@email.com</p>
-					</div>
-				</div>
-				<div class="message">
-					<div class="container">
-						<form method="post" action="/" id="save-user-form">
-							<input type="text" class="small-input" placeholder="Name *" name="name">
-							<input type="text" class="small-input" placeholder="Email *" name="email">
-							<input type="text" class="small-input" placeholder="Subject" name="subject">
+  </header>
+  <div class="features">
+    <div class="container">
+      <div class="feature">
+        <img src="img/features-1.png" alt="sleek design">
+        <h2 class="feature-highlighted-heading">Sleek design</h2>
+        <hr>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting let. 
+          Lorem Ipsum has been the industry.
+        </p>
+      </div>
+      <div class="feature">
+        <img src="img/features-2.png" alt="sleek design">
+        <h2>Cleen code</h2>
+        <hr>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting let. 
+          Lorem Ipsum has been the industry.
+        </p>
+      </div>
+      <div class="feature">
+        <img src="img/features-3.png" alt="sleek design">
+        <h2>Creative ideas</h2>
+        <hr>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting let. 
+          Lorem Ipsum has been the industry.
+        </p>
+      </div>
+      <div class="feature">
+        <img src="img/features-4.png" alt="sleek design">
+        <h2>Free support</h2>
+        <hr>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting let. 
+          Lorem Ipsum has been the industry.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="services">
+    <img src="img/services-web-btn.png" class="web-btn" alt="web design">
+    <img src="img/services-print-btn.png" class="print-btn" alt="print design">
+    <img src="img/services-photo-btn.png" class="photo-btn" alt="photography">
+    <div class="services-left">
+      <div class="container">
+        <div class="services-heading">
+          <h2>Our services</h3>
+          <hr>
+        </div>
+        <div class="service">
+          <h3>Web design</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+            Lorem Ipsum has been the industry's standard dummy text ever.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Print design</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+            Lorem Ipsum has been the industry's standard dummy text ever.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Photography</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+            Lorem Ipsum has been the industry's standard dummy text ever.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="services-right"></div>
+  </div>
+  <div class="keep-in-touch" id="forms">
+    <div class="container">
+      <div class="keep-in-touch-heading">
+        <h2>Keep in touch</h2>
+        <p>
+          Nullam sit amet odio eu est aliquet euismod a a urna. Proin eu urna 
+          suscipit, dictum quam nec. 
+        </p>
+        <div class="figure">
+          <hr>
+          <img src="img/header-figure-ellipse.png" alt="dot">
+          <hr>
+        </div> 
+      </div>
+      <div class="service-blocks" id="form-block">
+        <div class="info">
+          <div class="info-block" class="first-info-block">
+            <h3>Our address</h3>
+            <p>  
+              House #13, Streat road, Sydney 
+              2310 Australia
+            </p>
+          </div>
+          <div class="info-block">
+            <h3>Call us</h3>
+            <p>
+              + 880 168 109 1425<br>
+              + 0216809142
+            </p>
+          </div>
+          <div class="info-block">
+            <h3>Email us</h3>
+            <p>contactus@email.com</p>
+          </div>
+        </div>
+        <div class="message">
+          <div class="container">
+            <form method="post" action="/" id="save-user-form">
+              <input type="text" class="small-input" placeholder="Name *" name="name">
+              <input type="text" class="small-input" placeholder="Email *" name="email">
+              <input type="text" class="small-input" placeholder="Subject" name="subject">
               <textarea class="big-textarea" placeholder="Message" name="message" id="textarea-message"></textarea>
               <div>
                 <input type="submit" value="SEND MESSAGE" class="message-submit">
@@ -277,69 +277,69 @@
                   <p>Ваше сообщение успешно отправлено</p>
                 </div>
               </div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="write-back">
-				<div class="container">
-					<form method="POST" action="feedbacks.php">
-						<input type="text" class="small-input" placeholder="Your email" name="email">
-						<input type="submit" value="Write back!" class="message-submit">
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="get-started-block">
-		<h2>
-			Let's Get Started Now. <b>It's FREE!</b>
-		</h2>
-		<p>
-			30 day free trial. Free plan allows up to 2 projects. Pay 
-			if you need more. Cancel anytime. No catches.
-		</p>
-		<button>
-			Start free trial
-		</button>
-	</div>
-	<footer id="fooooter">
-		<a href="#top">
-		<button class="go-to-up">
-			<img src="img/up-arrow.png" alt="go to up">
-		</button>
-		</a>	
-		<div class="container">
-			<div class="social-icons">
-				<a href="">
-					<img src="img/fb-logo.png" alt="facebook" class="social-icon small-social-icon">
-				</a>
-				<a href="">
-					<img src="img/twitter-logo.png" alt="twitter" class="social-icon">
-				</a>
-				<a href="">
-					<img src="img/rss-logo.png" alt="rss" class="social-icon">
-				</a>
-				<a href=""><img src="img/google-plus-logo.png" alt="google+" class="social-icon"></a>
-				<a href="">
-					<img src="img/linkedin-logo.png" alt="linkedin" class="social-icon">
-				</a>
-				<a href="">
-					<img src="img/skype-logo.png" alt="skype" class="social-icon">
-				</a>
-				<a href="">
-					<img src="img/vimeo-logo.png" alt="vimeo" class="social-icon">
-				</a>
-				<a href="">
-					<img src="img/tumblr-logo.png" alt="tumblr" class="social-icon small-social-icon">
-				</a>
-			</div>
-			<div class="copyright">
-				<h4>
-					Kazi Erfan © All Rights Reserved 
-				</h4>
-			</div>
-		</div>
-	</footer>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="write-back">
+        <div class="container">
+          <form method="POST" action="feedbacks.php">
+            <input type="text" class="small-input" placeholder="Your email" name="email">
+            <input type="submit" value="Write back!" class="message-submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="get-started-block">
+    <h2>
+      Let's Get Started Now. <b>It's FREE!</b>
+    </h2>
+    <p>
+      30 day free trial. Free plan allows up to 2 projects. Pay 
+      if you need more. Cancel anytime. No catches.
+    </p>
+    <button>
+      Start free trial
+    </button>
+  </div>
+  <footer id="fooooter">
+    <a href="#top">
+    <button class="go-to-up">
+      <img src="img/up-arrow.png" alt="go to up">
+    </button>
+    </a>  
+    <div class="container">
+      <div class="social-icons">
+        <a href="">
+          <img src="img/fb-logo.png" alt="facebook" class="social-icon small-social-icon">
+        </a>
+        <a href="">
+          <img src="img/twitter-logo.png" alt="twitter" class="social-icon">
+        </a>
+        <a href="">
+          <img src="img/rss-logo.png" alt="rss" class="social-icon">
+        </a>
+        <a href=""><img src="img/google-plus-logo.png" alt="google+" class="social-icon"></a>
+        <a href="">
+          <img src="img/linkedin-logo.png" alt="linkedin" class="social-icon">
+        </a>
+        <a href="">
+          <img src="img/skype-logo.png" alt="skype" class="social-icon">
+        </a>
+        <a href="">
+          <img src="img/vimeo-logo.png" alt="vimeo" class="social-icon">
+        </a>
+        <a href="">
+          <img src="img/tumblr-logo.png" alt="tumblr" class="social-icon small-social-icon">
+        </a>
+      </div>
+      <div class="copyright">
+        <h4>
+          Kazi Erfan © All Rights Reserved 
+        </h4>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
