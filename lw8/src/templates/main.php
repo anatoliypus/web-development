@@ -285,7 +285,8 @@
 			if (isset($args['error_msg']))
 			{
 					echo "<div class='form-error'><h3>" . $args['error_msg'] . "</h3></div>";
-			} else if (isset($args['success']))
+      } 
+      else if (isset($args['success']))
 			{
 					echo "<div class='form-success'><h3>Success!</h3></div>";
 			}
