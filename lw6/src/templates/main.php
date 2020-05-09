@@ -22,10 +22,10 @@
 <body>
 	<header>
 		<button class="left-slider-btn">
-				<img src="img/angle-left.png" alt="left">
+			<img src="img/angle-left.png" alt="left">
 		</button>
 		<button class="right-slider-btn">
-				<img src="img/angle-right.png" alt="right">
+			<img src="img/angle-right.png" alt="right">
 		</button>
 		<a href="#fooooter">
 			<button class="down-btn">
@@ -194,7 +194,8 @@
 			if (isset($args['error_msg']))
 			{
 					echo "<div class='form-error'><h3>" . $args['error_msg'] . "</h3></div>";
-			} else if (isset($args['success']))
+      } 
+      else if (isset($args['success']))
 			{
 					echo "<div class='form-success'><h3>Success!</h3></div>";
 			}

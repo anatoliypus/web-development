@@ -5,7 +5,8 @@ function feedbacksListPage(): void
     if (getRequestMethod() == 'POST') 
     {
         $email = getPostParameter('email');
-    } else 
+    } 
+    else 
     {
         $email = getGetParameter('email');
     }
@@ -25,11 +26,13 @@ function feedbacksListPage(): void
                 }
             }
             renderTemplate('feedbacks.php', ['vals' => $strings]);
-        } else 
+        } 
+        else 
         {
             renderTemplate('feedbacks.php', ['error_msg' => 'No such user!']);
         }
-    } else 
+    } 
+    else 
     {
         renderTemplate('feedbacks.php', ['error_msg' => 'Wrong email']);
     }
