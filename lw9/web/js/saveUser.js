@@ -11,8 +11,7 @@ async function run() {
     form.elements.message.classList.add('input-success');
     if (result.success == true) {
       document.getElementById('success-message').style.visibility = 'visible';
-    } else 
-    {
+    } else {
       document.getElementById('success-message').style.visibility = 'hidden';
     }
     for (key in result) {
