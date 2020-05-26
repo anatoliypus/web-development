@@ -1,18 +1,24 @@
 SELECT 
-    Students.student_name, 
-    Students.student_surname, 
-    Student_groups.group_name,
-    Faculties.faculty_name
+    s.student_name, 
+    s.student_surname, 
+    sg.group_name,
+    f.faculty_name
 FROM 
-    Students
+    student
+AS 
+    s
 JOIN 
-    Student_groups
+    student_group
+AS 
+    sg
 ON
-    Students.student_group_id = Student_groups.group_id
+    s.student_group_id = sg.group_id
 JOIN 
-    Faculties
+    faculty
+AS 
+    f
 ON
-    Student_groups.group_faculty_id = Faculties.faculty_id
+    sg.group_faculty_id = f.faculty_id
 WHERE 
     student_name = 'Anatoliy' AND student_surname = 'Pushkarev';
 

@@ -1,8 +1,10 @@
 SELECT 
-    Students.student_name,
-    Students.student_surname,
-    Students.student_age
+    s.student_name,
+    s.student_surname,
+    s.student_age
 FROM 
-    Students
+    student
+AS 
+    s
 WHERE 
     student_age = 19

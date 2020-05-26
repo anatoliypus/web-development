@@ -1,12 +1,16 @@
 SELECT 
-    Students.student_name,
-    Students.student_surname,
-    Student_groups.group_name
+    s.student_name,
+    s.student_surname,
+    sg.group_name
 FROM 
-    Students 
+    student 
+AS 
+    s
 JOIN  
-    Student_groups 
+    student_group
+AS 
+    sg
 ON
-    Students.student_group_id = Student_groups.group_id
+    s.student_group_id = sg.group_id
 WHERE 
     group_name = 'Programming-1';
