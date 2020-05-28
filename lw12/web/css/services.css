@@ -1,0 +1,157 @@
+.services 
+{
+    width: 100%;
+    height: 770px;
+    display: flex;
+    flex-direction: row;
+}
+
+.services-left
+{
+    width: 55%;
+    height: 100%;
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.services-right
+{
+    width: 45%;
+    height: 100%;
+    background-image: url("../img/services-right.png");
+    background-size: 100% 100%;
+}
+
+.web-btn 
+{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 1695px;
+    left: calc(55% - 36px);
+}
+
+.print-btn 
+{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 1835px;
+    left: calc(55% - 36px);
+}
+
+.photo-btn 
+{
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 1980px;
+    left: calc(55% - 36px);
+}
+
+.services .container 
+{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 85px;
+    margin-top: 155px;
+}
+
+.services-heading 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.services-heading hr 
+{
+    background-color: #e74c3c;
+    border: 0;
+    margin-left: 30px;
+    width: 6px;
+    height: 35px;
+}
+
+.services-heading h2 
+{
+    font-family: 'Source Sans Pro';
+    font-weight: 700;
+    color: #f4f5f9;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.service 
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+
+.service h3
+{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    color: #e74c3c;
+    text-transform: uppercase;
+}
+
+.service p 
+{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    color: #999999;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 700px)
+{
+    .services
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .services-right
+    {
+        display: none;
+    }
+    .services-left
+    {
+        justify-content: center;
+        align-items: center;
+        height: 734px;
+        width: 100%;
+    }
+    .services-left .container 
+    {
+        padding: 0;
+    }
+    .web-btn, .print-btn, .photo-btn
+    {
+        visibility: hidden;
+    }
+    .services .container 
+    {
+        margin-top: 89px;
+    }
+}
+
+@media screen and (max-width: 1150px)
+{
+    .web-btn, .print-btn, .photo-btn
+    {
+        visibility: hidden;
+    }
+}
+

@@ -1,0 +1,69 @@
+body, html 
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6
+{
+    text-align: center;
+}
+
+.container 
+{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+button 
+{
+    outline: none;
+}
+
+.figure
+{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 45px;
+    padding: 0;
+    align-items: center;
+}
+
+.figure hr 
+{
+    width: 80px;
+    height: 1px;
+    color: #fff;
+    border: 0;
+    background-color: #f1ebe7;
+}
+
+.figure img 
+{
+    width: 7px;
+    height: 7px;
+}
+
+a, button 
+{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) 
+{
+    .container 
+    {
+        width: 90%;
+    }
+}
